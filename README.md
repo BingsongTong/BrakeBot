@@ -92,8 +92,9 @@ BrakeBot/
 
 ### 许可证
 
-本项目目前**尚未选择开源许可证**。仓库公开不等于自动授予他人复制、修改或再分发代码的许可。
+本项目采用 [MIT License](LICENSE) 开源许可证。
 
+Copyright (c) 2026 Bingsong Tong
 ---
 
 ## English
@@ -164,4 +165,6 @@ BrakeBot/
 
 ### License
 
-**No open-source license has been chosen yet.** Public visibility on GitHub does not, by itself, grant permission to copy, modify, or redistribute the code.
+This project is licensed under the [MIT License](LICENSE).
+
+Copyright (c) 2026 Bingsong Tong
