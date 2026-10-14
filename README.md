@@ -87,7 +87,8 @@ BrakeBot/
 ├── assets/
 │   └── high-score-9107.png
 ├── CHANGELOG.md
-└── .gitignore
+├── .gitignore
+└── LICENSE
 ```
 
 ### 许可证
@@ -95,6 +96,7 @@ BrakeBot/
 本项目采用 [MIT License](LICENSE) 开源许可证。
 
 Copyright (c) 2026 Bingsong Tong
+
 ---
 
 ## English
@@ -160,7 +162,8 @@ BrakeBot/
 ├── assets/
 │   └── high-score-9107.png
 ├── CHANGELOG.md
-└── .gitignore
+├── .gitignore
+└── LICENSE
 ```
 
 ### License
