@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-10-15 — New demonstrated high score: 9,117
+
+- Updated the bilingual README with the latest successful in-game run: **9,117 points**, **259.3 km/h**, **7.375 s**, **295.6 m** braking distance, and **1,612 N** maximum displayed pedal force.
+- Added `assets/high-score-9117.webp` (a readability-focused crop of the actual screenshot); retained `assets/high-score-9107.png` as a previous record.
+- No changes to the controller or automatic score submission behavior.
+
 ## 1.1.0 — Tampermonkey auto-injection
 
 - Added `brake-bot.user.js` with early page-context injection for Edge / Tampermonkey.
@@ -8,8 +14,6 @@
 - Uses the same three-frame predictive braking logic as the original `brake-bot.js`; the console version remains available.
 - Added userscript metadata for GitHub-hosted updates and bilingual installation instructions.
 - No automatic leaderboard submissions, backend modification, or score manipulation.
-
-# Changelog
 
 ## Initial public release
 
