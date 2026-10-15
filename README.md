@@ -8,19 +8,21 @@
 **[🚀 一键安装 / Install BrakeBot userscript](https://raw.githubusercontent.com/BingsongTong/BrakeBot/main/brake-bot.user.js)** — Edge + Tampermonkey, no F12 required.
 
 
-![BrakeBot 实测 9107 分 / A 9,107-point BrakeBot run](assets/high-score-9107.png)
+![BrakeBot 实测 9117 分 / A 9,117-point BrakeBot run](assets/high-score-9117.webp)
 
-> **Best demonstrated successful run / 目前展示的最高成功成绩：9,107 points（分）**  
+> **Best demonstrated successful run / 目前展示的最高成功成绩：9,117 points（分）**  
 > This is an actual in-game result, not a world-record claim or proof of leaderboard submission.  
 > 这是游戏内实测成功成绩，并非全球最高分声明，也不代表已提交排行榜。
 
 | 指标 / Metric | 实测结果 / Observed result |
 |:--|--:|
-| 得分 / Score | **9,107** |
+| 得分 / Score | **9,117** |
 | 起刹速度 / Initial braking speed | 259.3 km/h |
-| 刹停时间 / Stopping time | 7.383 s |
-| 制动距离 / Braking distance | 295.7 m |
+| 刹停时间 / Stopping time | 7.375 s |
+| 制动距离 / Braking distance | 295.6 m |
 | 最大显示踏板力 / Max *displayed* pedal force | 1,612 N |
+
+> 旧成绩 / Previous run: [9,107 分截图 / 9,107-point screenshot](assets/high-score-9107.png)。新版主图为实测截图的裁剪展示 / The new featured image is cropped from the actual in-game screenshot for readability.
 
 > **关于 1612 N / About 1,612 N:** The game rounds the displayed force to an integer. A successful run can display 1,612 N even when the internal force remains below the actual break threshold.  
 > 游戏会将显示的踏板力四舍五入为整数，所以成功刹停时画面显示 1612 N，并不代表内部真实踏板力已达到断裂阈值。
@@ -94,7 +96,7 @@ const LOOK_AHEAD = 3;       // 前瞻帧数
 
 - 脚本依赖游戏页面当前的 DOM ID、动画回调及物理规则；游戏更新后可能失效。
 - HUD 的车速、距离和踏板力会被四舍五入；不同 FPS、硬件负载和浏览器调度会影响实际成绩。
-- 9107 分是一次成功实测，不保证每次达到，也不是理论上限。
+- 9117 分是一次成功实测，不保证每次达到，也不是理论上限。
 - 请自行核对游戏规则，确认是否允许使用自动化工具及是否允许将相关成绩提交排行榜。
 
 ### 项目文件
@@ -105,6 +107,7 @@ BrakeBot/
 ├── brake-bot.js
 ├── brake-bot.user.js
 ├── assets/
+│   ├── high-score-9117.webp
 │   └── high-score-9107.png
 ├── CHANGELOG.md
 ├── .gitignore
@@ -186,7 +189,7 @@ const LOOK_AHEAD = 3;       // Number of frames to look ahead
 
 - The controller depends on the current page's DOM IDs, animation callback, and game rules; site updates may break it.
 - The HUD rounds speed, distance, and force values. FPS, hardware load, and browser scheduling can all change the result.
-- The 9,107-point screenshot documents one successful run, not a guaranteed score or theoretical maximum.
+- The 9,117-point screenshot documents one successful run, not a guaranteed score or theoretical maximum.
 - Review the game's rules before using automation or submitting automatically assisted results to its leaderboard.
 
 ### Repository contents
@@ -197,6 +200,7 @@ BrakeBot/
 ├── brake-bot.js
 ├── brake-bot.user.js
 ├── assets/
+│   ├── high-score-9117.webp
 │   └── high-score-9107.png
 ├── CHANGELOG.md
 ├── .gitignore
